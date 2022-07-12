@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: gainsboro;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 90%;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.13);
+}
+.container h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.container form {
+    align-self: center;
+}
+
+
+.input-field {
+    margin: 15px auto;
+}
+
+input[type=text] {
+    /* width: 280px; */
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px dotted black;
+    background: whitesmoke;
+    font-size: 16px;
+    font-family: Helvetica;
+    transition: 0.2s;
+}
+
+input::placeholder {
+    color: rgb(158, 157, 157)
+}
+
+input:focus {
+    background: rgba(220, 220, 220, 0.5);
+    border-bottom: 1px solid steelblue;
+}
+
+.btn {
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    border: none;
+    background: steelblue;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: .5s
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid steelblue;
+    color: black;
+    box-shadow: inset 1px 1px 20px 2px rgba(0, 0, 0, 0.13);
+}
+
+.resultado {
+    margin: auto;
+    width: 70%;
+    font-size: 24px;
+    text-align: center;
+}
