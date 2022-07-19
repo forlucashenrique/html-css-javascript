@@ -172,3 +172,241 @@ header {
     line-height: 24px;
     color: #667085;
 }
+
+/* vagas talentos */
+
+.vagas-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.vagas-talentos {
+    width: 1;
+}
+
+.vagas-talentos-header {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.vagas-talentos-header p {
+    padding: 10px;
+}
+
+.vagas-talentos-header p:nth-of-type(1) {
+    color: #8E2424;
+    font-weight: 600;
+    line-height: 24px 
+}
+
+.vagas-talentos-header p:nth-of-type(2) {
+    color:  #101828;
+    line-height: 60px;
+    font-size: 42px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.vagas-talentos-header p:nth-of-type(3){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.vagas-talentos img {
+    width: 100%;
+}
+
+/* vagas descricao */ 
+
+.vagas-container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.vagas-info {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.vagas-info-titulo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    margin-bottom: 20px;
+}
+
+.vagas-info-descricao {
+    padding:15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.vagas-info-descricao-header {
+    display: block;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.vagas-info-descricao-footer {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    margin-right: 20px;
+
+}
+
+/* sessão depoimentos */
+
+.depoimento-container {
+    width: 100%;
+    padding: 0 96px;
+    text-align: center;
+}
+
+.depoimento-conteudo {
+    padding: 50px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.depoimento-conteudo-header p {
+    padding: 10px;
+}
+
+.depoimento-conteudo-header p:nth-of-type(1) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E2424;
+}   
+
+.depoimento-conteudo-header p:last-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.depoimento-conteudo-autor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.depoimento-conteudo-autor img {
+    padding: 10px;
+}
+
+.depoimento-conteudo-autor span:nth-of-type(1){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828
+}
+
+.depoimento-conteudo-autor span:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+/* footer */
+
+.formulario-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.formulario-conteudo {
+    padding: 0 15px;
+}
+
+
+.formulario-conteudo-header p {
+    margin-bottom: 25px;
+}
+
+.formulario-conteudo-header p:nth-of-type(1) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    
+}
+
+.formulario-conteudo-header p:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+
+.formulario-conteudo-form {
+    width: 100%;
+    text-align: center;
+}
+
+.formulario-conteudo-form input[type=text] {
+    width: 300px;
+    height: 40px;
+    padding: 12px 14px 12px 16px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.formulario-container:last-child {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* Gray/400 */
+
+    color: #98A2B3;
+}
