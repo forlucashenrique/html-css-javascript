@@ -2,12 +2,12 @@ Repositório destinado para o desenvolvimento de projetos simples com o objetivo
 
 <https://forlucashenrique.github.io/html-css-javascript/>
 
-[ToDo List](./ToDo/index.html)
+[Todo List](https://forlucashenrique.github.io/html-css-javascript/ToDo/index.html)
 
-[Temporizador](./Temporizador/index.html)
+[Temporizador](https://forlucashenrique.github.io/html-css-javascript/Temporizador/index.html)
 
-[IMC](./IMC/index.html)
+[IMC](https://forlucashenrique.github.io/html-css-javascript/IMC/index.html)
 
-[AimShot](./AimShot/index.html)
+[AimShot](https://forlucashenrique.github.io/html-css-javascript/AimShot/index.html)
 
-[OptimusTech](./7DaysOfCode/index.html)
+[OptimusTech](https://forlucashenrique.github.io/html-css-javascript/7DaysOfCode/index.html)
