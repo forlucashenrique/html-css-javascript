@@ -1,6 +1,5 @@
 Repositório destinado para o desenvolvimento de projetos simples com o objetivo de fixar conceitos aprendidos. 
 
-<https://forlucashenrique.github.io/html-css-javascript/>
 
 [Todo List](https://forlucashenrique.github.io/html-css-javascript/ToDo/index.html)
 
